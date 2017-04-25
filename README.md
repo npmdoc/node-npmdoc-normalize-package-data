@@ -1,4 +1,7 @@
-# api documentation for  [normalize-package-data (v2.3.6)](https://github.com/npm/normalize-package-data#readme)  [![npm package](https://img.shields.io/npm/v/npmdoc-normalize-package-data.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-normalize-package-data) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-normalize-package-data.svg)](https://travis-ci.org/npmdoc/node-npmdoc-normalize-package-data)
+# npmdoc-normalize-package-data
+
+#### basic api documentation for  [normalize-package-data (v2.3.8)](https://github.com/npm/normalize-package-data#readme)  [![npm package](https://img.shields.io/npm/v/npmdoc-normalize-package-data.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-normalize-package-data) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-normalize-package-data.svg)](https://travis-ci.org/npmdoc/node-npmdoc-normalize-package-data)
+
 #### Normalizes data that can be found in package.json files.
 
 [![NPM](https://nodei.co/npm/normalize-package-data.png?downloads=true&downloadRank=true&stars=true)](https://www.npmjs.com/package/normalize-package-data)
@@ -49,10 +52,15 @@
     },
     "directories": {},
     "dist": {
-        "shasum": "498fa420c96401f787402ba21e600def9f981fff",
-        "tarball": "https://registry.npmjs.org/normalize-package-data/-/normalize-package-data-2.3.6.tgz"
+        "shasum": "d819eda2a9dedbd1ffa563ea4071d936782295bb",
+        "tarball": "https://registry.npmjs.org/normalize-package-data/-/normalize-package-data-2.3.8.tgz"
     },
-    "gitHead": "f6c37066edd095c0e465f6e181c0cd79a02f6c3d",
+    "files": [
+        "lib/*.js",
+        "lib/*.json",
+        "AUTHORS"
+    ],
+    "gitHead": "6ba494919aa5f8aa7bb2881a136eefbd04b9d141",
     "homepage": "https://github.com/npm/normalize-package-data#readme",
     "license": "BSD-2-Clause",
     "main": "lib/normalize.js",
@@ -82,7 +90,8 @@
     "scripts": {
         "test": "tap test/*.js"
     },
-    "version": "2.3.6"
+    "version": "2.3.8",
+    "bin": {}
 }
 ```
 
